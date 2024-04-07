@@ -1,0 +1,18 @@
+Steps in handling a form.
+1. prevent default. in the handle submit 
+2. give label a classname of form-label.
+3. give input a classname of form-control.
+4. u can attach the handlesubmit to the form element with 'onSubmit' |||| on the button with 'onClick'.
+5. value and onchange  on every usestate( after putting the value onchange:(e) => setPassword(e.target.value)).
+6. after this > const handlesubmit = (e) =>{
+    e.preventDefault();
+    //write your logic.
+}
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.

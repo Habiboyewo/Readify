@@ -1,0 +1,116 @@
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+h2{
+    padding-bottom: 1.5rem;
+}
+
+.input{
+    padding: 0.4rem;
+    width: 25vw;
+    border: 2px solid black;
+}
+.bttn{
+    padding:0.4rem;
+    width: 8vw;
+    border: 2px solid black;
+    background-color: rgb(172, 110, 69);
+    font-weight: 300;
+ }
+ .bttn:hover{
+    color: white;
+    background-color:rgb(182, 139, 110) ;
+ }
+.parap{
+    width: 35vw;
+    color: rgb(47, 95, 143);
+}
+
+.text{
+    font-weight: 700;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: black;
+}
+.footerspan{
+    color:  rgb(172, 110, 69);
+}@media screen and (max-width:1024px){
+    .footer{
+        padding: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .input{
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width:768px){
+    .footer{
+        padding: 1rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .parap{
+        width: 95vw;
+    }
+    .parap{
+        width: 90vw;
+    }
+    .input{
+        width: 15rem;
+        padding: 0.4rem;
+    }
+    .bttn{
+        width: 6rem;
+    }
+}
+@media screen and (max-width:425px){
+    .footer{
+        padding: 1rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .parap{
+        width: 90vw;
+    }
+    .input{
+        width: 15rem;
+        padding: 0.4rem;
+    }
+    .bttn{
+        width: 6rem;
+    }
+}
+@media screen and (max-width:375px) {
+    .footer{
+        padding: 1rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .parap{
+        width: 90vw;
+    }
+    .input{
+        width: 15rem;
+        padding: 0.4rem;
+    }
+    .bttn{
+        width: 6rem;
+    }
+}
+@media screen and (max-width:320px){
+    .footer{
+        padding: 1rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .input{
+        width: 12rem;
+    }
+    .bttn{
+        width: 6rem;
+    }
+    .parap{
+        width: 100vw;
+    }
+}

@@ -1,0 +1,106 @@
+.bg{
+    background-color: rgb(230, 235, 246);
+    padding-left: 2rem;
+    /* padding: 4rem; */
+}
+.div{
+    margin-top: -30px;
+    margin-left: 39rem;
+    margin-bottom: 2rem;
+    width: 9rem;
+    height: 0.2rem;
+    background-color: rgb(172, 110, 69);
+    border-radius: 10px;
+}
+.main{
+    text-align: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 4rem;
+    padding-top: 0;
+    /* padding: 2rem; */
+}
+.ihn:hover{
+    background-color: white;
+}
+.rate{
+    color: rgb(172, 110, 69);
+}
+.flex{
+    display: flex;
+    gap: 4rem;
+    /* justify-content: space-between; */
+}
+@media screen and (max-width:1024px){
+    .grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding:2.5rem;
+    }
+    .div{
+        margin-top: -30px;
+        margin-left: 26.5rem;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width:768px){
+    .grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding:2.5rem;
+    }
+    .div{
+        margin-top: -30px;
+        margin-left: 18.5rem;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width:425px){
+    .grid{
+        width: 60vw;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding:2rem;
+    }
+    .div{
+        margin-top: -30px;
+        margin-left: 8rem;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width:375px){
+    .grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0.2rem;
+    }
+    .div{
+        margin-top: -30px;
+        margin-left: 6rem;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width:320px){
+    .grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .div{
+        margin-top: -30px;
+        margin-left: 4rem;
+        margin-bottom: 3.5rem;
+    }
+    .flex{
+        padding-bottom: 2rem;
+    }
+
+}

@@ -1,0 +1,144 @@
+.h2{
+    margin-left: 12rem;
+}
+.side{
+    display: flex;
+    gap: 7rem;
+    padding: 4rem;
+}
+.abt{
+    margin-top: 4rem;
+}
+.about{
+    width:550px;
+    height:529px;
+}
+.page{
+    width: 40vw;
+    color: rgb(47, 95, 143)
+}
+.line{
+    margin-top: -30px;
+    margin-left: 13rem;
+    margin-bottom: 2rem;
+    width: 7rem;
+    height: 0.3rem;
+    background-color: rgb(172, 110, 69);
+    border-radius: 10px;
+}
+@media screen and (max-width: 1024px){
+    .side{
+        gap: 3rem;
+        padding: 3rem;
+    }
+    .about{
+        width: 50vw;
+        height: 70lvh;
+    }
+    .page{
+        padding:2vw ;
+        width: 40vw;
+        color: rgb(47, 95, 143)
+    }
+    .h2{
+        margin-left: 4rem;
+    }
+    .line{
+        margin-left: 5rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .navbtn{
+        width: 25% !important;
+    }
+    .side{
+        flex-direction: column;
+        padding: 0.5rem;
+        /* padding-top: 2rem; */
+    }
+    .h2{
+        margin-left: 15rem;
+    }
+    .line{
+        margin-left: 16rem;
+    }
+    .about{
+        width: 100%;
+        height: 90lvh;
+    }
+    .page{
+        padding:2vw ;
+        width: 94vw;
+        color: rgb(47, 95, 143)
+    }
+}
+@media screen and (max-width: 425px){
+    .navbtn{
+        width: 25% !important;
+    }
+    .side{
+        flex-direction: column;
+        padding: 0.5rem;
+        /* padding-top: 2rem; */
+    }
+    .h2{
+        margin-left: 7rem;
+    }
+    .line{
+        margin-left: 6.5rem;
+    }
+    .about{
+        width: 100%;
+    }
+    .page{
+        padding:2vw ;
+        width: 94vw;
+        color: rgb(47, 95, 143)
+    }
+}
+@media screen and (max-width: 375px){
+    .navbtn{
+        width: 25% !important;
+    }
+    .side{
+        flex-direction: column;
+        padding: 0.5rem;
+        padding-top: 4rem;
+    }
+    .h2{
+        margin-left: 6rem;
+    }
+    .line{
+        margin-left: 5.5rem;
+    }
+    .about{
+        width: 100%;
+    }
+    .page{
+        width: 94vw;
+        color: rgb(47, 95, 143)
+    }
+}
+@media screen and (max-width: 320px){
+    .navbtn{
+        width: 50% !important;
+    }
+    .side{
+        flex-direction: column;
+        padding: 0.5rem;
+        padding-top: 4rem;
+    }
+    .h2{
+        margin-left: 6rem;
+    }
+    .line{
+        margin-left: 5.5rem;
+    }
+    .about{
+        width: 100%;
+    }
+    .page{
+        width: 94vw;
+        color: rgb(47, 95, 143)
+    }
+}

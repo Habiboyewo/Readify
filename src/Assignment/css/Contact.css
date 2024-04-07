@@ -1,0 +1,161 @@
+.formed{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6.8rem;
+}
+.head{
+    margin-left: 40rem;
+    padding-top: 9rem;
+}
+.lined{
+    margin-top: -30px;
+    margin-left: 42rem;
+    /* margin-bottom: 2rem; */
+    width: 7rem;
+    height: 0.3rem;
+    background-color: rgb(172, 110, 69);
+    border-radius: 10px;
+}
+.form{
+    padding: 0.5rem;
+    width: 35vw;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(230, 174, 138);
+    
+}
+.test{
+    background-color: rgb(230, 174, 138);
+    padding: 0.5rem;
+    width:35vw;
+    border: none;
+    border-radius: 5px;
+    
+    
+}
+
+.danger {
+    /* background-color: red; */
+    color: red;
+}
+
+.success {
+    /* background-color: green; */
+    color: green;
+}
+.cbtn{
+    border: none;
+    padding: 0.4rem;
+    border-radius:5px;
+    background-color: rgb(172, 110, 69);
+    color: white;
+    width: 8.5vw;
+    margin-bottom: 2rem;
+}
+::placeholder {
+    color: black;
+    opacity: 1;
+  }
+  
+  ::-ms-input-placeholder { 
+    color: black;
+  }
+  @media screen and (max-width:1024px) {
+    .head{
+        margin-left: 27rem;
+        padding-top: 12rem;
+    }
+    .lined{
+        margin-left: 28.5rem;
+        margin-bottom: 0;
+    }
+    .test{
+        width: 40vw;
+    }
+    .form{
+        width: 40vw;
+    }
+    .cbtn{
+        width: 25%;
+        margin-bottom: 5rem;
+    }
+  }
+  @media screen and (max-width:768px) {
+    .head{
+        margin-left: 19rem;
+        padding-top: 3rem;
+    }
+    .lined{
+        margin-left: 20rem;
+        margin-bottom: 0;
+    }
+    .test{
+        width: 50vw;
+    }
+    .form{
+        width: 50vw;
+    }
+    .cbtn{
+        width: 25%;
+    }
+  }
+  @media screen and (max-width:425px) {
+    .head{
+        margin-left: 8rem;
+        padding-top: 3rem;
+    }
+    .lined{
+        margin-left: 8.6rem;
+        margin-bottom: 0;
+    }
+    .test{
+        width: 90vw;
+    }
+    .form{
+        width: 90vw;
+    }
+    .cbtn{
+        width: 25%;
+    }
+  }
+  @media screen and (max-width:375px) {
+    .head{
+        margin-left: 6.5rem;
+        padding-top: 3rem;
+    }
+    .lined{
+        margin-left: 7rem;
+        margin-bottom: 0;
+    }
+    .test{
+        width: 80vw;
+    }
+    .form{
+        width: 80vw;
+    }
+    .cbtn{
+        width: 50%;
+    }
+  }
+  @media screen and (max-width:320px) {
+    .head{
+        margin-left: 6.5rem;
+        padding-top: 3rem;
+    }
+    .lined{
+        margin-left: 7rem;
+        margin-bottom: 0;
+    }
+    .test{
+        width: 90vw;
+    }
+    .form{
+        width: 90vw;
+    }
+    .cbtn{
+        width: 50%;
+    }
+  }
